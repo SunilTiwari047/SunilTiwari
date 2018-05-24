@@ -1,0 +1,194 @@
+html {
+  height:100%;
+}
+body { 
+  margin:0px;
+  padding:0px;
+  text-align: justify;
+  font-family: Myriad Pro, Helvetica, Arial, sans-serif;
+  font-size:15px;
+  background-color:#eeeeee;
+}
+h1 {
+  font-weight:bold;
+  font-size:20px;
+  padding:0px;
+  margin:0px;
+  display:inline;
+}
+h2 {
+  font-weight:bold;
+  font-size:18px;
+  padding:0px;
+  margin:10px 0px;
+}
+h3 {
+  font-size:16px;
+  padding:0px;
+  margin:0px;
+}
+a { 
+  font-weight:bold;
+  text-decoration:none;
+  color:#0066CC;
+}
+a img { 
+   border:none;
+   text-align:center;
+}
+a:hover {
+  text-decoration:underline;
+  color:#EC6100;
+  cursor:pointer;
+}
+a.presenter {
+    color: black;
+    font-weight: 400;
+}
+#canvas { 
+  position:relative;
+  width:800px;
+  height:100%;
+  margin:10px auto;
+  background-color:#ffffff;
+  border:1px solid #b4b4b4;
+  padding-bottom:20px;
+}
+#menu {
+  width:800px;
+  margin:0px auto;
+  border:0px;
+  background-color:#0066CC;
+}
+#menu a {
+  padding:5px 5px;
+  text-decoration: none;
+  font-size:17px;
+  font-weight:bold;
+  color: #FFFFFF;
+}
+#menu a:hover {
+  #background-color:#EC6100;
+  #color:#EC6100;
+  text-decoration:underline;
+  cursor:pointer;
+  font-weight:bold;
+}
+#menu ul {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+  text-align:center;
+}
+#menu li {
+  display: inline;
+  padding:10px;
+}
+.regular {
+  margin:0px;
+  padding:20px 20px 0px 20px;
+  height:100%;
+}
+
+#name {
+  float:right;
+  position:relative;
+  font-size:16px;
+  
+  margin:20px 0px 0px 20px;  
+}
+#name h1 {
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+#name p {
+  margin:0px;
+  padding:0px;
+}
+
+#info {
+  float:right;
+  font-size:16px;
+  margin:0px;
+}
+#info h1 {
+  font-size:24px;
+  font-weight:bold;
+}
+#info p {
+  margin:0px;
+  padding:0px;
+}
+
+#contact {
+  position:absolute;
+  right:20px;
+  margin:0px;
+  padding:0px;
+}
+#contact h1 {
+  font-size:24px;
+  font-weight:bold;
+}
+#contact p {
+  margin:0px;
+  padding:0px;
+}
+
+#logo {
+  position:absolute;
+  top:10px;
+  right:10px;
+  height:88px;
+  width:254px; 
+}
+b { 
+  font-weight:bold;
+}
+#copy {
+  margin:0px auto;
+  font-size:12px;
+  color:#777777;
+  width:800px;
+}
+#picture {
+  float:right;
+  width:120px; 
+  margin:20px 0px 20px 10px;
+}
+
+div.bib {
+  padding-left:40px;
+  text-indent:-30px; 
+  margin:10px;
+}
+
+div.bib h1 {
+  display:inline;
+  font-size:17px;
+  font-weight: normal;
+}
+
+
+div.footer { 
+  font-size: .8em; 
+  padding: 10px 0 10px 0px; 
+  border-top: 0px solid #ddd;
+  border:0px solid #000; 
+  vertical-align:middle;
+}
+#footer {
+ float: left;
+ width: inherit;
+ font-size: 0.8em;
+ margin: 0 auto;
+ color:#333;
+ /*background: #333333;*/
+ background: #ededed;
+ text-align: center;
+ /*border:#333333 thin solid;*/
+ border: 1px solid #ccc;
+ border-top: none;
+}
+
